@@ -2,12 +2,12 @@
 * [Summary](#summary)
 * [Part 1. IT Common Information](#part-1it-common-information)
   * [웹 개발 상식](https://github.com/joonsu1229/interviewPrepare/tree/main/web_development_sense)
-  * 네트워크
-  * 운영체제
-  * 자료구조
+  * [네트워크]()
+  * [운영체제]()
+  * [자료구조]()
 * [Part 2. Language](#part-2language)
-  * Java
-  * JavaScript
+  * [Java]()
+  * [JavaScript]()
 * [Part 3. Spring Framework](#part-3spring-framework)
 * [Part 4. Database](#part-4database)
 
