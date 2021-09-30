@@ -28,6 +28,12 @@
   * Perter의 우아한 프로그래밍 [Link](https://gracefulprograming.tistory.com/130)
 
 ## MVC 패턴의 개념
+![MVC](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/MVC%20pattern.jpg)
+
+### MVC의 개념
+Controller(컨트롤러)
+클라이언트가 요청을 했을때, 그 요청을 처리할 수 있는 비지니스 로직이 구현되어 있는 모델 컴포넌트를 호출한다. 그리고 클라이언트가 보낸 데이터를 모델에 전달하기 쉽게 가공한다.
+이후 비지니스 로직이 구현되어 있는 모델이 처리를 완료하면 그 결과를 VIEW에게 전달한다.
 
 ## 쿠키와 세션의 공통점과 차이
 
