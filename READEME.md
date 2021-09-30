@@ -1,7 +1,7 @@
-# ![목차](https://github.com/joonsu1229/interviewPrepare/blob/main/interviewPrepare/Img_foler/icons8-todo-list-30.png) Contents 
+# ![목차](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/icons8-todo-list-30.png) Contents 
 * [Summary](#summary)
 * [Part 1. IT Common Information](#part-1it-common-information)
-  * [웹 개발 상식](https://github.com/joonsu1229/interviewPrepare/blob/main/interviewPrepare/web_development_sense)
+  * [웹 개발 상식](https://github.com/joonsu1229/interviewPrepare/tree/main/web_development_sense)
   * 네트워크
   * 운영체제
   * 자료구조
@@ -16,15 +16,15 @@
 그 동안 깃 관리를 하지 않았는데 이제부터 개인 공부를 한 내용들 깃에 정리 할 예정입니다.
 
 # Part 1.IT Common Information
-## ![웹 개발 상식](https://github.com/joonsu1229/customDevSource/blob/main/interviewPrepare/Img_foler/icons8-making-notes-30.png)웹 개발 상식 [Link](https://github.com/joonsu1229/customDevSource/blob/main/interviewPrepare/web_development_sense)
+## ![웹 개발 상식](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/icons8-making-notes-30.png)웹 개발 상식 [Link](https://github.com/joonsu1229/interviewPrepare/tree/main/web_development_sense)
 * 객체지향의 개념
 * MVC 패턴의 개념
 * 쿠키와 세션의 공통점과 차이
 * RESTful API 개념
 
-## ![네트워크](https://github.com/joonsu1229/customDevSource/blob/main/interviewPrepare/Img_foler/icons8-making-notes-30.png)네트워크
-## ![운영체제](https://github.com/joonsu1229/customDevSource/blob/main/interviewPrepare/Img_foler/icons8-making-notes-30.png)운영체제
-## ![자료구조](https://github.com/joonsu1229/customDevSource/blob/main/interviewPrepare/Img_foler/icons8-making-notes-30.png)자료구조
+## ![네트워크](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/icons8-making-notes-30.png)네트워크
+## ![운영체제](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/icons8-making-notes-30.png)운영체제
+## ![자료구조](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/icons8-making-notes-30.png)자료구조
 
 ## Part 2.Language
 
