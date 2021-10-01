@@ -3,7 +3,7 @@
 * [MVC 패턴의 개념](#mvc-패턴의-개념)
 * [쿠키와 세션의 공통점과 차이](#쿠키와-세션의-공통점과-차이)
 * [RESTful API 개념](#restful-api-개념)
-* [SSO와 SSL의 개념](#sso와-ssl의-개념)
+* [SSO의 개념](#sso와-ssl의-개념)
 
 ## 객체지향의 개념
 객체지향의 개념은 가장 기본이지만 굉장히 어려운 단어라 생각합니다. 지금도 정확하게 알지는 못하지만 면접 준비를 하며 객체 지향 프로그래밍(OOP)의 개념을 다시 정확히 숙지하기 위해 정리합니다.<br>
@@ -58,4 +58,16 @@ View(뷰)<br>
 ### Reference
    * 쿠키, 세션의 특징 참고 [Link](https://hahahoho5915.tistory.com/32)
 ## RESTful API 개념
-## SSO와 SSL의 개념
+REST란 자원을 이름으로 구분하여 해당 자원의 상태를 주고받는 것을 의미합니다. 구체적인 개념은 HTTP URI를 통해 자원을 명시하고, HTTP Method를 통해 해당 자원에 대한 GET, PUT, DELETE, POST 등의 CRUD를 적용하는 것을 의미합니다. 즉, REST API란 REST 기반으로 서비스 API를 구현한 것 입니다. <br>  RESTful이란 REST의 원리를 따르는 시스템을 의미합니다.
+### REST API의 특징
+   * REST 기반으로 시스템을 분산해 확장성과 재사용성을 높일 수 있다.
+   * HTTP를 지원하는 프로그램 언어로 클라이언트, 서버를 구현할 수 있다(Java, C# 등을 이용해 클라이언트 제작 가능).
+
+### Reference
+   * RESTful API 참고 링크 [Link](https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html)
+
+## SSO의 개념
+   * SSO(Single Sign-On) : 한번의 로그인으로 여러가지 다른 사이트들을 자동적으로 접속하여 이용하는 방법. 즉 하나의 시스템에서 인증을 한 경우 타 시스템에서는 인증정보가 있는지 확인 후 정보가 있으면 로그인 처리를 하도록 하는 것입니다.
+### Reference 
+   * SSO참고 링크 [Link](https://brunch.co.kr/@sangjinkang/36)
+## SSL의 개념
