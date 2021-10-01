@@ -41,9 +41,20 @@ Model(모델)<br>
 View(뷰)<br>
 컨트롤러로부터 받은 결과 데이터를 이용하여 사용자가 보게 될 화면을 만드는 역할을 한다. (Html, Css, Javascript를 모아둔 컨테이너)
 
-### Refrence
+### Reference
    * MVC 패턴 참고 링크 [Link](https://asfirstalways.tistory.com/180)
 
 ## 쿠키와 세션의 공통점과 차이
+### 쿠키
+쿠키는 웹 사이트에 접속할 때 생성되는 정보를 담은 임시파일 입니다. 데이터의 형태는 Key와 Value로 구성되어 있습니다.<br>
+쿠키는 서버에 저장하는 대신 사용자의 컴퓨터에 저장되는 데이터입니다. 쿠키의 사용 목적으로는 방문 했던 사이트 로그인 정보 자동 <br>입력 , 팝업 "오늘 이 창을 다시 보지않기", 쇼핑몰 장바구니 등에 사용됩니다.<br>
+쿠키의 단점으로는 사용자의 PC에 데이터를 저장하다보니 임의로 고치거나 지울 수 있고, 가로채기도 쉬워 보안에 취약합니다.
+### 세션
+세션은 서버에 저장되는 데이터로서 웹 브라우저 당 1개씩 생성되며 웹 컨테이너에 저장됩니다. 웹 서버에 접속한 시점부터 웹 브라우저를 종료하기까지 사용자의 상태를 일정하게 유지시키는 기술입니다. 
+서버에서 관리하므로 쿠키보다 보안이 좋습니다.
 
+![쿠키와 세션 차이](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/cookie%20and%20session.png)
+### Reference
+   * 쿠키, 세션의 특징 참고 [Link](https://hahahoho5915.tistory.com/32)
 ## RESTful API 개념
+## SSO와 SSL의 개념
