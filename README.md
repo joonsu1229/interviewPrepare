@@ -2,7 +2,7 @@
 * [Summary](#summary)
 * [Part 1. IT Common Information](#part-1it-common-information)
   * [웹 개발 상식](https://github.com/joonsu1229/interviewPrepare/tree/main/web_development_sense)
-  * [네트워크]()
+  * [네트워크](https://github.com/joonsu1229/interviewPrepare/tree/main/network)
   * [운영체제]()
   * [자료구조]()
 * [Part 2. Language](#part-2language)
@@ -24,8 +24,14 @@
 * SSO의 개념
 * SSL의 개념
 
-## ![네트워크](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/icons8-making-notes-30.png)네트워크
+## ![네트워크](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/icons8-making-notes-30.png)네트워크 [Link](https://github.com/joonsu1229/interviewPrepare/tree/main/network)
+* TCP와 UDP의 개념
+* GET과 POST의 차이
+* HTTP와 HTTPS 차이
+* OSI 7계층
+
 ## ![운영체제](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/icons8-making-notes-30.png)운영체제
+
 ## ![자료구조](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/icons8-making-notes-30.png)자료구조
 
 ## Part 2.Language
