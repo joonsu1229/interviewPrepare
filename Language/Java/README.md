@@ -12,12 +12,12 @@
 
 
 ### Reference 
-  * Perter의 우아한 프로그래밍 [Link](https://gracefulprograming.tistory.com/130)
+  * 
 
-## M예외처리
+## 예외처리
 
 ### Reference
-   * MVC 패턴 참고 링크 [Link](https://asfirstalways.tistory.com/180)
+   * 
 
 ## Stream
 
