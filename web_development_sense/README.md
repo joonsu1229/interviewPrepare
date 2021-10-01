@@ -73,7 +73,7 @@ REST란 자원을 이름으로 구분하여 해당 자원의 상태를 주고받
    * SSO참고 링크 [Link](https://brunch.co.kr/@sangjinkang/36)
 
 ## SSL의 개념
-SSL(Secure Socket Layer) 프로토콜은 처음에 Netscape사에서 웹서버와 브라우저 사이의 보안을 위해 만들었습니다. SSL은 Certificate Authority라 불리는 서드 파티로부터 서버와 클라이언트의 인증을 하는데 사용됩니다. ![SSL](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/ssl.png)
+SSL(Secure Socket Layer) 프로토콜은 처음에 Netscape사에서 웹서버와 브라우저 사이의 보안을 위해 만들었습니다. SSL은 Certificate Authority라 불리는 서드 파티로부터 서버와 클라이언트의 인증을 하는데 사용됩니다. ![SSL](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/ssl.png)<br>
 자세한 내용은 하단의 참조한 사이트에서 숙지하시길 바랍니다.
 
 ### Reference 
