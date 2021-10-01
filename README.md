@@ -34,8 +34,9 @@
 
 ## ![자료구조](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/icons8-making-notes-30.png)자료구조
 
-## Part 2.Language
+# Part 2.Language
+## Java [Link](https://github.com/joonsu1229/interviewPrepare/tree/main/Language/Java/README.md)
+## Javascript [Link](https://github.com/joonsu1229/interviewPrepare/blob/main/Language/Javascript/README.md)
+# Part 3.Spring Framework
 
-## Part 3.Spring Framework
-
-## Part 4.Database
+# Part 4.Database
