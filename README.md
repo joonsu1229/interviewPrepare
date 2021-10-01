@@ -36,6 +36,14 @@
 
 # Part 2.Language
 ## ![Java](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/icons8-making-notes-30.png)Java [Link](https://github.com/joonsu1229/interviewPrepare/blob/main/Language/Java/README.md)
+* 람다식(Lambda Expressions)
+* 예외처리
+* Stream
+* Collection
+* Interface와 Abstract
+* Thread
+* 동기화(Synchronized)
+* Overriding과 Overloading
 
 ## ![Javascript](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/icons8-making-notes-30.png)Javascript [Link](https://github.com/joonsu1229/interviewPrepare/blob/main/Language/Javascript/README.md)
 # Part 3.Spring Framework
