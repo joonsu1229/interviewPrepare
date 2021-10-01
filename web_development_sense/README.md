@@ -68,6 +68,15 @@ REST란 자원을 이름으로 구분하여 해당 자원의 상태를 주고받
 
 ## SSO의 개념
    * SSO(Single Sign-On) : 한번의 로그인으로 여러가지 다른 사이트들을 자동적으로 접속하여 이용하는 방법. 즉 하나의 시스템에서 인증을 한 경우 타 시스템에서는 인증정보가 있는지 확인 후 정보가 있으면 로그인 처리를 하도록 하는 것입니다.
+
 ### Reference 
    * SSO참고 링크 [Link](https://brunch.co.kr/@sangjinkang/36)
+
 ## SSL의 개념
+SSL(Secure Socket Layer) 프로토콜은 처음에 Netscape사에서 웹서버와 브라우저 사이의 보안을 위해 만들었습니다. SSL은 Certificate Authority라 불리는 서드 파티로부터 서버와 클라이언트의 인증을 하는데 사용됩니다. ![SSL](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/ssl.png)
+자세한 내용은 하단의 참조한 사이트에서 숙지하시길 바랍니다.
+
+### Reference 
+   * [SSL 개념 및 동작 원리 알아보기](https://goodgid.github.io/TLS-SSL/)
+   * [HTTP와 SSL에 대한 기본 개념 및 통신과정](https://jins-dev.tistory.com/entry/SSL-%EC%9D%B4%EB%9E%80-SSL-%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A0%95%EB%A6%AC)
+
