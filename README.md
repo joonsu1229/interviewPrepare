@@ -6,8 +6,8 @@
   * [운영체제(미작성)](#)
   * [자료구조(미작성)](#)
 * [Part 2. Language](#part-2language)
-  * [Java](#https://github.com/joonsu1229/interviewPrepare/blob/main/Language/Java/README.md)
-  * [JavaScript](#https://github.com/joonsu1229/interviewPrepare/tree/main/Language/Java/Javascript/README.md)
+  * [Java](https://github.com/joonsu1229/interviewPrepare/blob/main/Language/Java/README.md)
+  * [JavaScript](https://github.com/joonsu1229/interviewPrepare/blob/main/Language/Javascript/README.md)
 * [Part 3. Spring Framework](#part-3spring-framework)
 * [Part 4. Database](#part-4database)
 
