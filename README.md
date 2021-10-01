@@ -21,7 +21,8 @@
 * MVC 패턴의 개념
 * 쿠키와 세션의 공통점과 차이
 * RESTful API 개념
-* SSO와 SSL의 
+* SSO와 SLO의 개념
+* SSL의 개념
 
 ## ![네트워크](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/icons8-making-notes-30.png)네트워크
 ## ![운영체제](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/icons8-making-notes-30.png)운영체제
