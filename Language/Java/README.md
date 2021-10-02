@@ -99,7 +99,20 @@ ex) 접근제어자 interface 인터페이스 이름{...}<br>
    * TCP SCHOOL Abstract 참고 [Link](https://tcpschool.com/java/java_polymorphism_abstract)
 	
 ## Collection
+Java에서 컬렉션은 데이터의 집합을 의미하며 자료구조인 컬렉션과 이를 구현하는 클래스를 정의하는 인터페이스를 제공합니다.
+![collection](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/collection.png)<br>
+#### Set 컬렉션(HashSet, TreeSet)
+- 순서가 없는 데이터의 집합으로, 데이터의 중복을 허용하지 않습니다.
+1. HashSet
 
+2. TreeSEt
+	
+#### List 컬렉션(ArrayList<E>, LinkedList<E>, Vector<E>, Stack<E>)
+- 요소의 저장 순서가 유지됩니다.
+- 같은 요소의 중복 저장을 허용합니다.
+1. ArrayList
+
+		
 ## Thread
 
 ## 동기화(Synchronized)
