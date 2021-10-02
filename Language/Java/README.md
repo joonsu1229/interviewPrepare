@@ -46,7 +46,7 @@ while(iter.hasNext()) {
 위 예시는 Stream forEach라는 기능을 나타낸 것인데 실제로는 많은 기능이 있습니다. 해당 기능을 여기서 다 정리하긴 힘들어 정리가 잘 되어 있는 링크를 참조합니다.
  
 ### Reference
-  * Stream 참고 링크 [Link](https://futurecreator.github.io/2018/08/26/java-8-streams/)
+  * Stream 참고 링크 [Link](https://futurecreator.github.io/2018/08/26/java-8-streams/) 
   
 ## 예외처리
 
