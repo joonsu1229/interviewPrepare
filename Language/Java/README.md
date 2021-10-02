@@ -82,8 +82,10 @@ ex) 접근제어자 interface 인터페이스 이름{...}<br>
 ### Interface와 Abstract의 차이
 
 ### Reference
-   * 점프 투 자바 Interface 참고 [Link](https://wikidocs.net/217), TCP SCHOOL Interface 참고 [Link](https://tcpschool.com/java/java_polymorphism_interface)
-   * 점프 투 자바 Abstract 참고 [Link](https://wikidocs.net/217), TCP SCHOOL Abstract 참고 [Link](https://tcpschool.com/java/java_polymorphism_abstract)
+   * 점프 투 자바 Interface 참고 [Link](https://wikidocs.net/217)
+   * TCP SCHOOL Interface 참고 [Link](https://tcpschool.com/java/java_polymorphism_interface)
+   * 점프 투 자바 Abstract 참고 [Link](https://wikidocs.net/217)
+   * TCP SCHOOL Abstract 참고 [Link](https://tcpschool.com/java/java_polymorphism_abstract)
 	
 ## Collection
 
