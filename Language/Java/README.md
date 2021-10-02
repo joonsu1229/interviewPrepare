@@ -101,7 +101,7 @@ ex) 접근제어자 interface 인터페이스 이름{...}<br>
 ## Collection
 Java에서 컬렉션은 데이터의 집합을 의미하며 자료구조인 컬렉션과 이를 구현하는 클래스를 정의하는 인터페이스를 제공합니다.
 ![collection](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/collection.png)<br>
-#### Set 컬렉션(HashSet, TreeSet)
+### Set 컬렉션(HashSet, TreeSet)
 - 순서가 없는 데이터의 집합으로, 데이터의 중복을 허용하지 않습니다.<br>
 ![Set](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/Set.png)<br>
 Set은 위 그림처럼 비선형 구조로 되어 있어 순서가 없고, 인덱스도 존재하지 않습니다. 그렇기 때문에 값을 삭제하거나, 추가할때 속도가 굉장히 느립니다.
@@ -112,18 +112,41 @@ Set 컬렉션에서 가장 많이 사용되는 클래스가 HashSet입니다. Ha
 
 2. TreeSet
 이진 탐색트리의 형태로 데이터를 저장하는 컬렉션입니다. 데이터의 추가, 삭제에는 성능이 좋지 않지만 검색, 정렬 시 성능이 뛰어납니다. HashSet과 마찬가지로 저장순서를 유지하지 않습니다.
-#### List 컬렉션(ArrayList<E>, LinkedList<E>, Vector<E>)
+### List 컬렉션(ArrayList<E>, LinkedList<E>, Vector<E>)
 - 요소의 저장 순서가 유지됩니다.
 - 같은 요소의 중복 저장을 허용합니다.
 1. ArrayList
 ArrayList는 배열을 이용하기 때문에 인덱스를 사용하여 배열 요소에 빠르게 접근할 수 있습니다. ArrayList는 배열과 다르게 크기를 늘리는 과정이 자동으로 수행 되지만, 요소의 추가, 및 삭제 작업에 걸리는 시간이 오래 걸립니다.
 2. LinkedList<br>
-![LinkedList](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/LinkedList.png)
+![LinkedList](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/LinkedList.png)<br>
 양방향 포인터 구조로 데이터의 삽입, 삭제가 자주 일어날 경우에 사용하기 좋습니다. ArrayList의 단점을 보완하기 위해 고안된 컬렉션입니다.
 LinkedList는 양방향 연결 리스트로 구현되어 있습니다. 각각의 노드가 next(다음 노드), prev(이전 노드)의 정보를 가지고 있습니다. 이러한 특성 덕에 삭제, 삽입의 성능이 좋습니다.
 3. Vecter
 ArrayList와 같은 동작을 수행하는 클래스입니다. ArrayList가 사용하는 메소드와 거의 동일하지만 현재는 기존 코드와의 호환성 때문에 남아 있는 컬렉션이므로 ArrayList를 사용하는게 좋습니다.
 
+## Map 컬렉션(HashMap, HashTable, TreeMap)
+Map 컬렉션 클래스들은 Key, Value를 한 쌍으로 저장하는 Key-Value 방식을 사용합니다. Map 컬렉션 클래스의 특징은 요소의 저장순서를 유지하지 않습니다. 
+그리고 키는 중복을 허용하지 않지만 값은 중복을 허용합니다.
+
+### HashMap
+![HashMap](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/HashMap.png)<br>
+HashMap은 해싱 알고리즘을 사용하기 때문에 많은 양의 데이터를 검색하는데 뛰어난 성능을 보입니다. 위 사진에서 보이듯이 key-value를 저장하는 구조를 가지고 있습니다.
+
+### TreeMap
+TreeMap은 이진트리를 기반으로 한 Map 컬렉션입니다. TreeSet과의 차이점은 TreeSet은 값만 저장하지만 TreeMap은 키와 값이 저장됩니다. 
+TreeMap은 데이터가 저장될 때 정렬을 하기 때문에 HashMap보다 추가, 삭제가 오래걸립니다. 정렬 상태를 유지해야 하거나 정렬된 데이터를 조회해야할 경우에 유용합니다.
+![redBlackTree](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/redBlackTree.png)
+
+TreeMap은 이진탐색트리가 보완된 레드-블랙-트리를 이용하여 만들어진 컬렉션입니다.
+
+### HashTable
+HashMap과 거의 유사한 기능과 사용법을 보이지만 Vector와 마찬가지로 HashTable보단 HashMap을 사용하는 것이 더 좋습니다.
+HashTable은 멀티스레드 환경이 아니라면 HashMap보다 성능이 떨어집니다.
+	
+### Reference
+   * 잡다한 프로그래밍 참고 [Link](https://crazykim2.tistory.com/589)
+   * 팡트루야 티스토리 참고 [Link](https://pangtrue.tistory.com/291)
+   * 코딩 팩토리 참고 [Link](https://coding-factory.tistory.com/557)
 
 ## Thread
 
