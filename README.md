@@ -45,7 +45,7 @@
 * 동기화(Synchronized)
 * Overriding과 Overloading
 
-## ![Javascript(미작성)](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/icons8-making-notes-30.png)Javascript [Link](https://github.com/joonsu1229/interviewPrepare/blob/main/Language/Javascript/README.md)
+## ![Javascript](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/icons8-making-notes-30.png) Javascript(미작성) [Link](https://github.com/joonsu1229/interviewPrepare/blob/main/Language/Javascript/README.md)
 # Part 3.Spring Framework
 
 # Part 4.Database
