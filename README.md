@@ -37,8 +37,8 @@
 # Part 2.Language
 ## ![Java](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/icons8-making-notes-30.png)Java [Link](https://github.com/joonsu1229/interviewPrepare/blob/main/Language/Java/README.md)
 * 람다식(Lambda Expressions)
-* 예외처리
 * Stream
+* 예외처리
 * Collection
 * Interface와 Abstract
 * Thread
