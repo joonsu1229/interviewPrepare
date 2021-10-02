@@ -102,17 +102,29 @@ ex) 접근제어자 interface 인터페이스 이름{...}<br>
 Java에서 컬렉션은 데이터의 집합을 의미하며 자료구조인 컬렉션과 이를 구현하는 클래스를 정의하는 인터페이스를 제공합니다.
 ![collection](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/collection.png)<br>
 #### Set 컬렉션(HashSet, TreeSet)
-- 순서가 없는 데이터의 집합으로, 데이터의 중복을 허용하지 않습니다.
+- 순서가 없는 데이터의 집합으로, 데이터의 중복을 허용하지 않습니다.<br>
+![Set](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/Set.png)<br>
+Set은 위 그림처럼 비선형 구조로 되어 있어 순서가 없고, 인덱스도 존재하지 않습니다. 그렇기 때문에 값을 삭제하거나, 추가할때 속도가 굉장히 느립니다.
 1. HashSet
+Set 컬렉션에서 가장 많이 사용되는 클래스가 HashSet입니다. HashSet은 해시 알고리즘을 이용하기 때문에 검색속도가 빠릅니다.
+입력된 순서에 상관없이 저장하며 중복값을 허용하지 않습니다. 순서를 유지해야한다면 LinkedHashSet을 이용하여야 합니다.
+중복을 걸러내는 방법은 객체를 저장하기 전 먼저 hasCode() 메소드를 호출하여 같은 해시코드가 있는지 비교합니다. 같은 해시 코드가 있다면 Equals() 메소드를 사용하여 같은 객체가 있다면 중복 저장을 이용하지 않습니다.
 
-2. TreeSEt
-	
-#### List 컬렉션(ArrayList<E>, LinkedList<E>, Vector<E>, Stack<E>)
+2. TreeSet
+이진 탐색트리의 형태로 데이터를 저장하는 컬렉션입니다. 데이터의 추가, 삭제에는 성능이 좋지 않지만 검색, 정렬 시 성능이 뛰어납니다. HashSet과 마찬가지로 저장순서를 유지하지 않습니다.
+#### List 컬렉션(ArrayList<E>, LinkedList<E>, Vector<E>)
 - 요소의 저장 순서가 유지됩니다.
 - 같은 요소의 중복 저장을 허용합니다.
 1. ArrayList
+ArrayList는 배열을 이용하기 때문에 인덱스를 사용하여 배열 요소에 빠르게 접근할 수 있습니다. ArrayList는 배열과 다르게 크기를 늘리는 과정이 자동으로 수행 되지만, 요소의 추가, 및 삭제 작업에 걸리는 시간이 오래 걸립니다.
+2. LinkedList<br>
+![LinkedList](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/LinkedList.png)
+양방향 포인터 구조로 데이터의 삽입, 삭제가 자주 일어날 경우에 사용하기 좋습니다. ArrayList의 단점을 보완하기 위해 고안된 컬렉션입니다.
+LinkedList는 양방향 연결 리스트로 구현되어 있습니다. 각각의 노드가 next(다음 노드), prev(이전 노드)의 정보를 가지고 있습니다. 이러한 특성 덕에 삭제, 삽입의 성능이 좋습니다.
+3. Vecter
+ArrayList와 같은 동작을 수행하는 클래스입니다. ArrayList가 사용하는 메소드와 거의 동일하지만 현재는 기존 코드와의 호환성 때문에 남아 있는 컬렉션이므로 ArrayList를 사용하는게 좋습니다.
 
-		
+
 ## Thread
 
 ## 동기화(Synchronized)
