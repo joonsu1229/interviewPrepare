@@ -1,7 +1,7 @@
 # Part 3. Spring Framework
-* [테스트](#테스트)
+* [Spring Framework 란?](#spring-framework-란)
 
-## 테스트
+## Spring Framework 란?
 
 ### 테스트
 
