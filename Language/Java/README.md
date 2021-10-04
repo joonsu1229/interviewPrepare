@@ -190,9 +190,10 @@ public class ThreadTest implements Runnable {
 쓰레드를 사용하는 이유는 <br>
 1. 동시에 여러가지의 코드 실행이 가능합니다.
 2. 메모리 관리에 효율적입니다.
-하지만 자원을 공유하면서 작업을 하기 때문에 동기화, 교착상태 등의 문제가 발생할 수 있어 신중히 프로그래밍 해야합니다.
-쓰레드 환경에서 동작을 잘 하는 것을 Thread Safe라고 합니다.
-## 동기화(Synchronized)
+하지만 자원을 공유하면서 작업을 하기 때문에 교착상태 등의 문제가 발생할 수 있어 신중히 프로그래밍 해야합니다.
+### Reference
+   * TCP School Thread 참고 [Link](http://tcpschool.com/java/java_thread_concept)
+   * 코딩 팩토리 Thread 참고 [Link](https://coding-factory.tistory.com/279)
 
 ## Overriding과 Overloading
 
