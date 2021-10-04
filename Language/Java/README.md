@@ -206,4 +206,4 @@ public class ThreadTest implements Runnable {
 2. 예외처리는 부모 클래스의 메소드보다 많을 수 없습니다.
 
 ### Overriding과 Overloading의 차이
-![Overridng](#https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/overridng.png)
+![Overridng](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/overridng.png)
