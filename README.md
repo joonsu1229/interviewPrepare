@@ -7,7 +7,7 @@
   * [자료구조(미작성)](#)
 * [Part 2. Language](#part-2language)
   * [Java](https://github.com/joonsu1229/interviewPrepare/blob/main/Language/Java/README.md)
-  * [JavaScript](https://github.com/joonsu1229/interviewPrepare/blob/main/Language/Javascript/README.md)
+  * [JavaScript(미작성)](https://github.com/joonsu1229/interviewPrepare/blob/main/Language/Javascript/README.md)
 * [Part 3. Spring Framework](#part-3spring-framework)
 * [Part 4. Database](#part-4database)
 
@@ -30,9 +30,9 @@
 * HTTP와 HTTPS 차이
 * OSI 7계층
 
-## ![운영체제](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/icons8-making-notes-30.png)운영체제
+## ![운영체제](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/icons8-making-notes-30.png)운영체제(미작성)
 
-## ![자료구조](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/icons8-making-notes-30.png)자료구조
+## ![자료구조](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/icons8-making-notes-30.png)자료구조(미작성)
 
 # Part 2.Language
 ## ![Java](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/icons8-making-notes-30.png)Java [Link](https://github.com/joonsu1229/interviewPrepare/blob/main/Language/Java/README.md)
