@@ -154,7 +154,7 @@ Thread 생성하는 방법은 두가지가 있습니다.
 1. Runnable 인터페이스를 구현해서 하는 방법
 2. Thread 클래스를 상속받는 방법
 보통 1번의 방법을 많이 이용하는데 그 이유는 2번 방법을 이용했을경우 extends를 사용하기 때문에 다른 클래스를 상속받을 수 없지만, 1번의 경우 인터페이스를 구현(implements)을 이용하기 때문에 다른 클래스를 상속받는 이점이 있어 1번의 이유를 많이 사용합니다. 1번의 방식으로 예제 코드를 구현해보겠습니다.
-Thread 코드를 실행해보면 예상과는 다르게 동작하는 것을 볼 수 있습니다. 예를들어 이런 코드를 작성해보겠습니다.
+Thread 코드를 실행해보면 예상과는 다르게 동작하는 것을 볼 수 있습니다. 예를들어 이런 코드를 작성해보겠습니다.<br>
 	
 public class ThreadTest implements Runnable {
 	int seq = 0;
@@ -178,8 +178,7 @@ public class ThreadTest implements Runnable {
 	
 	public static void main(String[] args) {		
 		for(int i=0; i < 10; i++){
-			Thread t = new Thread(new ThreadTest(i));
-			
+			Thread t = new Thread(new ThreadTest(i));			
 			t.start();
 		}
 		System.out.println("프로그램 종료");
@@ -187,8 +186,12 @@ public class ThreadTest implements Runnable {
 }
 
 이 코드를 실행해보면 for문에 있는 thread가 실행되기 전에 프로그램 종료라는 문구가 나옵니다. 이처럼 쓰레드를 실행하면 순서대로 진행하는것이 아닌 따로 독자적으로 실행되는 것을 알 수 있습니다.
-
-
+쓰레드를 실행할때 순차적으로 실행하고 싶다면 join이라는 메소드를 사용하시면 됩니다.
+쓰레드를 사용하는 이유는 <br>
+1. 동시에 여러가지의 코드 실행이 가능합니다.
+2. 메모리 관리에 효율적입니다.
+하지만 자원을 공유하면서 작업을 하기 때문에 동기화, 교착상태 등의 문제가 발생할 수 있어 신중히 프로그래밍 해야합니다.
+쓰레드 환경에서 동작을 잘 하는 것을 Thread Safe라고 합니다.
 ## 동기화(Synchronized)
 
 ## Overriding과 Overloading
