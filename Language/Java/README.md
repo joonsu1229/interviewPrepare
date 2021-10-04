@@ -149,6 +149,30 @@ HashTable은 멀티스레드 환경이 아니라면 HashMap보다 성능이 떨�
    * 코딩 팩토리 참고 [Link](https://coding-factory.tistory.com/557)
 
 ## Thread
+Thread란 프로세스를 이루는 코드의 실행 흐름입니다. 프로세스에는 한 개 이상의 스레드가 존재합니다. 두 개 이상의 스레드를 가지는 프로세스를 멀티 스레드라고 합니다.
+Thread 생성하는 방법은 두가지가 있습니다.
+1. Runnable 인터페이스를 구현해서 하는 방법
+2. Thread 클래스를 상속받는 방법
+보통 1번의 방법을 많이 이용하는데 그 이유는 2번 방법을 이용했을경우 extends를 사용하기 때문에 다른 클래스를 상속받을 수 없지만, 1번의 경우 인터페이스를 구현(implements)을 이용하기 때문에 다른 클래스를 상속받는 이점이 있어 1번의 이유를 많이 사용합니다. 1번의 방식으로 예제 코드를 구현해보겠습니다.
+Thread 코드를 실행해보면 예상과는 다르게 동작하는 것을 볼 수 있습니다. 예를들어 이런 코드를 작성해보겠습니다.
+public class run implements Runaable {
+public void run() {
+  System.out.println("Thread 실행")
+  try{
+    Thread.sleep(1000) // 1초로 시간제한
+  }catch(Exception e){
+  }
+  System.out.println("Thread 종료")	
+}
+public static void main(String[] args) {
+  Thread thread = new run();
+  for(int i=0; i < 10; i++){
+    
+  }
+}
+}
+
+
 
 ## 동기화(Synchronized)
 
