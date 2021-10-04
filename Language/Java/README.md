@@ -155,23 +155,38 @@ Thread 생성하는 방법은 두가지가 있습니다.
 2. Thread 클래스를 상속받는 방법
 보통 1번의 방법을 많이 이용하는데 그 이유는 2번 방법을 이용했을경우 extends를 사용하기 때문에 다른 클래스를 상속받을 수 없지만, 1번의 경우 인터페이스를 구현(implements)을 이용하기 때문에 다른 클래스를 상속받는 이점이 있어 1번의 이유를 많이 사용합니다. 1번의 방식으로 예제 코드를 구현해보겠습니다.
 Thread 코드를 실행해보면 예상과는 다르게 동작하는 것을 볼 수 있습니다. 예를들어 이런 코드를 작성해보겠습니다.
-public class run implements Runaable {
-public void run() {
-  System.out.println("Thread 실행")
-  try{
-    Thread.sleep(1000) // 1초로 시간제한
-  }catch(Exception e){
-  }
-  System.out.println("Thread 종료")	
-}
-public static void main(String[] args) {
-  Thread thread = new run();
-  for(int i=0; i < 10; i++){
-    
-  }
-}
+	
+public class ThreadTest implements Runnable {
+	int seq = 0;
+
+	
+	public ThreadTest(int seq){
+		seq = this.seq;
+	}
+
+	@Override
+	public void run() {
+		System.out.println("Thread 실행-" + seq + "초");
+		
+		try{
+			Thread.sleep(1000); // 1초로 시간제한
+		}catch(Exception e){
+		}
+		
+		System.out.println("Thread 종료")	;
+	}
+	
+	public static void main(String[] args) {		
+		for(int i=0; i < 10; i++){
+			Thread t = new Thread(new ThreadTest(i));
+			
+			t.start();
+		}
+		System.out.println("프로그램 종료");
+	}
 }
 
+이 코드를 실행해보면 for문에 있는 thread가 실행되기 전에 프로그램 종료라는 문구가 나옵니다. 이처럼 쓰레드를 실행하면 순서대로 진행하는것이 아닌 따로 독자적으로 실행되는 것을 알 수 있습니다.
 
 
 ## 동기화(Synchronized)
