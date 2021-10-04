@@ -196,5 +196,14 @@ public class ThreadTest implements Runnable {
    * 코딩 팩토리 Thread 참고 [Link](https://coding-factory.tistory.com/279)
 
 ## Overriding과 Overloading
+### Overloading
+오버로딩은 하나의 메소드 명을 이용하여 여러 기능을 구현할 때 사용하는 용어입니다. 오버로딩의 조건은 메소드의 이름이 같으며 매개변수나 타입이 달라야합니다. 대표적인 예로 printStream의 println() 메소드가 있습니다. 메소드 이름은 같지만 전달받는 인자는 int, long, boolean, String 등 다양한 타입의 메소드를 전달받아 출력합니다. 이러한 오버로딩의 장점은 같은 기능을 하는 메소드를 하나의 이름으로 사용할 수 있습니다.
 
+### Overrrding
+오버라이딩은 부모 클래스로부터 상속받은 메소드를 자식클래스가 재정의하여 사용하는 것을 오버라이딩이라고 합니다. 오버라이딩은 부모 클래스의 메소드를 재정의하는 것이므로 매개변수, 리턴 값, 메소드의 이름이 모두 동일해야 합니다.
+오버라이딩의 규칙
+1. 자식 클래스에서 재정의 한 메소드의 접근 제어자는 부모 클래스보다 더 좁으면 안됩니다.
+2. 예외처리는 부모 클래스의 메소드보다 많을 수 없습니다.
 
+### Overriding과 Overloading의 차이
+![Overridng](#overridng)
