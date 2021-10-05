@@ -22,18 +22,20 @@
 #### 제어역행(Inversion Of Control, IOC)
  * 메소드나 객체의 호출작업을 개발자가 결정하는 것이 아니라, 외부에서 결정되는 것을 의미
  * 개발자가 객체 생성에 관련된 코드를 직접 작성하는 것이 아닌 프레임워크가 객체를 생성하여 반환하고 코드를 동작하는 순서를 결정
- * BeanFactory, ApplicationContext 등을 사용하여 객체를 생성
 
 #### 의존성 주입(Dependency Injection, DI)
- ![DI](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/DI.png)
- 
- * 의존성이란 객체가 혼자서 처리할 수 없음을 뜻
- * 제어의 역행을 사용해서 특정 객체를 필요한 객체의 외붕
-#### 관점지향 프로그래밍
+ ![DI](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/DI.png)<br>
+ DI는 객체를 개발자가 생성하는 것이 아닌 외부에서 생성을 시킨 후 주입시켜주는 것 입니다. 위의 사진 처럼 객체를 생성하는 방법은 2가지가 있습니다. 첫번째 방법은 New 생성자를 사용하는 방법, 두번째 방법은 setter()나 생성자를 통해 사용하는 방법입니다. 2번 방법이 직접 생성하지않고 외부에서 생성된 객체를 생성자나 setter()로 사용하는데 이걸 스프링에서 사용하는 DI라고 합니다.<br>
+ * 의존성이란 객체가 혼자서 처리할 수 없음을 뜻함
+ * 제어의 역행을 사용해서 특정 객체를 필요한 객체의 외부에서 생성ㅎ
 
-### Reference 
-  * 
-
+#### 관점지향 프로그래밍(Aspected oriented programming, AOP)
+ * 핵심적인 관점, 부가적인 관점으로 나누어보고 그 관점을 기준으로 모듈화 하는것이 AOP
+ * AOP의 목표는 공통으로 사용하는 기능은 외부의 독립된 클래스로 분리하고, 개발자가 해당 기능을 선언하여 적용하는것
+ * AOP는 프록시 패턴이라는 디자인 패턴을 사용
+ * Aspect : 여러 곳에서 중복되는 코드를 뜻하는 단어
+### Reference
+  * Spring 참고 [Link](https://private.tistory.com/39)
 ## Spring Framework와 Spring Boot의 차이
 
 ## Spring Transaction
