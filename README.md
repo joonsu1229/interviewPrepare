@@ -49,7 +49,6 @@
 # Part 3.Spring Framework [Link](https://github.com/joonsu1229/interviewPrepare/tree/main/Spring_Framework/README.md)
  * Spring Framework 란?
  * Spring Framework의 특징
- * Spring Framework와 Spring Boot의 차이
- * Spring Transaction
+ * Spring Boot 란?
 
 # Part 4.Database
