@@ -45,6 +45,6 @@ Spring Boot란 기존의 Spring Framework의 다양한 설정의 어려움 등�
  * 내장 Tomcat을 사용하여 별도의 WAS를 구성하지 않고 바로 개발할 수 있습니다.
  * 라이브러리 버전 자동 관리
 #### Spring Boot Starter 기본적인 종류
-![SpringBoot Starter](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/spring Boot.png)
+![SpringBoot Starter](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/starter.png)
 ### Reference
  * Spring Boot 참고 [Link](https://incheol-jung.gitbook.io/docs/q-and-a/spring/spring-boot)
