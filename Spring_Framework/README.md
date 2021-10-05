@@ -1,8 +1,8 @@
 # Part 3. Spring Framework
 * [Spring Framework 란?](#spring-framework-란)
 * [Spring Framework의 특징](#spring-framework의-특징)
-
-
+* [Spring Framework와 Spring Boot의 차이](#spring-framework와-springboot의-차이)
+* [Spring Transaction](#spring-transaction)
 ## Framework
 스프링 프레임워크에 들어가기에 앞서 프레임워크란 무엇인지 정리해보았습니다. 프레임워크란 프로그램의 흐름을 제어함으로서 개발자가 어떠한 틀에 맞춰 개발을 하도록 유도하는 것입니다. 
 틀을 만듦으로써 개발 생산성을 향상 시키고 개발을 더욱 쉽게 만들어줍니다. 라이브러리와는 다소 차이가 있으니 주의하시기 바랍니다.
@@ -18,13 +18,22 @@
  * 과거엔 EJB(Enterpise Java Bean)이 컨테이너 역할을 해주었는데 이것보다 더 경령화된 컨테이너로 등장한 것이 Spring Framework
  * Spring은 톰캣과 같은 단순 서버 환경에서도 동작하며 단순한 개발환경으로도 엔터프라이즈 애플리케이션을 개발가능
  * 간편한 애플리케이션 개발이 가능하며 생산성이 뛰어난 프레임워크
-#### 제어역행(IOC)
- * 개발자가 만든 어떤 클래스, 메소드를 다른 프로그램이 대신 실행해주는 것입니다.
- * 
-#### 의존성 주입
 
+#### 제어역행(Inversion Of Control, IOC)
+ * 메소드나 객체의 호출작업을 개발자가 결정하는 것이 아니라, 외부에서 결정되는 것을 의미
+ * 개발자가 객체 생성에 관련된 코드를 직접 작성하는 것이 아닌 프레임워크가 객체를 생성하여 반환하고 코드를 동작하는 순서를 결정
+ * BeanFactory, ApplicationContext 등을 사용하여 객체를 생성
+
+#### 의존성 주입(Dependency Injection, DI)
+ ![DI](https://github.com/joonsu1229/interviewPrepare/blob/main/img_folder/DI.png)
+ 
+ * 의존성이란 객체가 혼자서 처리할 수 없음을 뜻
+ * 제어의 역행을 사용해서 특정 객체를 필요한 객체의 외붕
 #### 관점지향 프로그래밍
 
 ### Reference 
   * 
 
+## Spring Framework와 Spring Boot의 차이
+
+## Spring Transaction
