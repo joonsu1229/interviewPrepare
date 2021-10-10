@@ -62,12 +62,36 @@ promiseTest(true)<br>
  * 다른 언어 처럼 int, float, double 등의 타입이 존재하지 않음
 ### 원시타입의 종류
 string, number, bigint, boolean, undefined, ES6 부터 추가된 symbol 이 있습니다. 원시타입은 불변성을 가지고 있습니다. 불변성을 가지고 있기때문에 값을 재할당 할 경우 새로운 메모리에 재할당한 값이 저장됩니다.
-
+ 
 ### Reference
  * 박해씨의 기묘한 프로젝트 참고 [Link](https://velog.io/@nomadhash/Java-Script-%EA%B9%8A%EC%9D%80-%EB%B3%B5%EC%82%AC%EC%99%80-%EC%96%95%EC%9D%80-%EB%B3%B5%EC%82%AC)
  
 ## 호이스팅이란?
+변수의 선언문을 유효 범위의 최상단으로 끌어올리는 행위를 호이스팅이라 합니다. 선언과 할당의 분리라고 생각하면 될 것 같습니다. 코드를 작성하여 예를 들어보겠습니다.<br>
+
+if(true){<br>
+　var name = "test";　<br>
+}<br>
+console.log(name);<br>
+
+이 코드를 실행해보면 분명 if문 안에서 name이란 변수가 선언이 됐기때문에 console.log를 실행했을때 오류가 발생하여야 하지만 undefined가 발생합니다. 그 이유는 변수를 유효범위의 최상단으로 올렸기 때문입니다. 해당 코드를 호이스팅이 된 코드로 다시 작성하겠습니다. <br>
+
+var name; //선언한 변수가 상단으로 올려짐 <br> 
+if(true){ <br>
+　name = 'test'; //할당하는 순서는 기존 위치와 같음 <br>
+} <br>
+console.log(name); <br>
+
+이외에도 함수 호이스팅이 존재하지만 개념은 비슷합니다.
 
 ## 클로저란?
+자신이 선언된 스코프를 기억하여 자신이 생성될때의 환경을 기억하는 함수입니다. 쉽게 말하면 함수 내에서 함수를 정의하고 사용한 것 입니다. <br>
+사용하는 이유 <br>
+1. 데이터를 보존할 수 있습니다.
+2. 정보의 접근 제한(캡슐화)
+3. 모듈화에 유리합니다.
+
+### Reference
+ * HANAMON 클로저 참고 [Link](https://hanamon.kr/javascript-%ED%81%B4%EB%A1%9C%EC%A0%80/)
 ## 프로토타입이란?
 ## 자바스크립트의 this란?
