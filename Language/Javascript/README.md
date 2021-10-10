@@ -19,7 +19,7 @@ $.ajax({ <br>
 }); <br>
 
 ### Promise
-Promise는 Ajax와 같은 비동기 방식의 함수입니다. 하지만 Ajax의 단점인 콜백헬(Callback hell), 에러, 예외처리가 보완되어 ES6에 등장한 비동기 방식의 함수입니다.
+Promise는 Ajax와 같은 비동기 방식의 함수입니다. 하지만 Ajax의 단점인 콜백헬(Callback hell), 에러, 예외처리가 보완되어 ES6에 정식으로 포함되었습니다.
 Promise는 비동기 처리에 성공하면 resolve라는 메소드를 호출해서 비동기 처리 결과를 후속 처리 메소드로 전달합니다. 만약 실패할 경우 reject라는 메소드가 후속처리 메소드로 전달합니다.
 후속처리 메소드에는 then, catch가 있습니다. <br>
 
@@ -27,7 +27,7 @@ ex) <br>
 // 프로미스 생성 <br>
 var promiseTest = function(param){ <br>
 　　return new Promise(function(resolve,reject){ <br>
-　　　　if(param){ <br>
+　　　　if(param == 1){ <br>
 　　　　　　resolve("success"); <br>
 　　　　}else{ <br>
 　　　　　　reject("fail"); <br>
