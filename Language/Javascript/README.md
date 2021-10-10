@@ -61,8 +61,13 @@ promiseTest(true)<br>
  * 자바스크립트는 모든 수를 실수로 처리하고 있고 number 타입 하나만 존재
  * 다른 언어 처럼 int, float, double 등의 타입이 존재하지 않음
 ### 원시타입의 종류
+string, number, bigint, boolean, undefined, ES6 부터 추가된 symbol 이 있습니다. 원시타입은 불변성을 가지고 있습니다. 불변성을 가지고 있기때문에 값을 재할당 할 경우 새로운 메모리에 재할당한 값이 저장됩니다.
 
+### Reference
+ * 박해씨의 기묘한 프로젝트 참고 [Link](https://velog.io/@nomadhash/Java-Script-%EA%B9%8A%EC%9D%80-%EB%B3%B5%EC%82%AC%EC%99%80-%EC%96%95%EC%9D%80-%EB%B3%B5%EC%82%AC)
+ 
 ## 호이스팅이란?
+
 ## 클로저란?
 ## 프로토타입이란?
 ## 자바스크립트의 this란?
