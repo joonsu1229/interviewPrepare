@@ -24,25 +24,30 @@ Promise는 비동기 처리에 성공하면 resolve라는 메소드를 호출해
 후속처리 메소드에는 then, catch가 있습니다. <br>
 
 ex) <br>
-// 프로미스 생성 <br>
-var promiseTest = function(param){ <br>
-　　return new Promise(function(resolve,reject){ <br>
-　　　　if(param == 1){ <br>
-　　　　　　resolve("success"); <br>
+function promiseTest(param) { <br>
+　　return new Promise(function(resolve, reject) { <br>
+　　　　if(param){ <br>
+　　　　　　　resolve(); //성공 <br>
 　　　　}else{ <br>
-　　　　　　reject("fail"); <br>
-　　　　} <br>
-　　}) <br>
+　　　　　reject(); //실패 <br>
+　　　　}	 <br>
+　　}); <br>
+} <br>
+//tehn 성공했을경우 함수호출 <br>
+function success() { <br>
+　　console.log("성공"); <br>
+　　return false; <br>
 } <br>
 
-// 프로미스 실행 <br>
-promiseTest(true).then( <br>
-　function(result){ <br>
-　　console.log(result); <br>
-　}, function(err){ <br>
-　　console.log(err); <br>
-　} <br>
-) <br>
+//catch 실패했을경우 해당 함수 호출 <br>
+function error() { <br>
+　　console.log("실패"); <br>
+　　return false; <br>
+} <br>
+
+promiseTest(true)<br>
+.then(success) //성공한 경우  <br> 
+.catch(error); // 실패할 경우 <br>
 
 ### Reference 
-  * Perter의 우아한 프로그래밍 [Link](https://gracefulprograming.tistory.com/130)
+  * 애송이의 코딩이야기 promise  [Link](https://mjn5027.tistory.com/85)
