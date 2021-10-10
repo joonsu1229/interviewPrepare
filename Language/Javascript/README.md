@@ -1,6 +1,10 @@
 # Part 2-1. Javascript
 * [AJAX와 Promise란?](#ajax와-promise란)
-* 자바스크립트의 Number Type과 다른 언어의 차이(#자바스크립트의-number-type과-다른-언어의-차이)
+* [자바스크립트의 타입](#자바스크립트의-타입)
+* [호이스팅이란?](#호이스팅이란)
+* [클로저란?](#클로저란)
+* [프로토타입이란?](#프로토타입이란]
+* [자바스크립트의 this란?](#자바스크립트의-this란]
 
 ## AJAX와 Promise란?
 ### AJAX
@@ -52,4 +56,13 @@ promiseTest(true)<br>
 ### Reference 
   * 애송이의 코딩이야기 promise  [Link](https://mjn5027.tistory.com/85)
 
-## 자바스크립트의 Number Type과 다른 언어의 차이
+## 자바스크립트의 타입
+### 자바스크립트의 Number Type과 다른 언어와의 차이점
+ * 자바스크립트는 모든 수를 실수로 처리하고 있고 number 타입 하나만 존재
+ * 다른 언어 처럼 int, float, double 등의 타입이 존재하지 않음
+### 원시타입의 종류
+
+## 호이스팅이란?
+## 클로저란?
+## 프로토타입이란?
+## 자바스크립트의 this란?
