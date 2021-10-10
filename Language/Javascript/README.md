@@ -1,6 +1,6 @@
 # Part 2-1. Javascript
 * [AJAX와 Promise란?](#ajax와-promise란)
-* 
+* 자바스크립트의 Number Type과 다른 언어의 차이(#자바스크립트의-number-type과-다른-언어의-차이)
 
 ## AJAX와 Promise란?
 ### AJAX
@@ -51,3 +51,5 @@ promiseTest(true)<br>
 
 ### Reference 
   * 애송이의 코딩이야기 promise  [Link](https://mjn5027.tistory.com/85)
+
+## 자바스크립트의 Number Type과 다른 언어의 차이
